@@ -13,7 +13,7 @@ All arguments are joined with spaces and used to invoke Remember The
 Milk's [Smart Add](http://www.rememberthemilk.com/services/smartadd/)
 feature.
 
-    ru buy milk #errand
+    rtm buy milk #errand
 
 Browser based authentication is triggered the first time `ru` is run,
 and the resulting token is cached in `~/.rtm.yml`.
@@ -23,7 +23,7 @@ operations possible in Remember The Milk, but after pondering the
 interface, this seems unlikely.  I just can't imagine myself forgoing
 the web interface in favor of something like:
 
-    ru --complete 142857 # Ain't gonna happen
+    rtm --complete 142857 # Ain't gonna happen
 
 ## API Usage
 
